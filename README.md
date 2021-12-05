@@ -7,14 +7,20 @@ In general way, it is form of algorithm aimed at suggesting relevant items to us
 
 Recommendation systems are really criticial in a lot of industries like Amazon and Netflix, where they don't have to use physical stores for customers to walk in and choose what they want. It is the other way around which there would a list of suggested items based on purschased history. Furthermore, it has already lead the world to the state which people could shop online simply by staying at home and clicked mouse to search. In fact, Amazon and Netflix are primary examples which doesn't reply a lot in physical locations but still provided best service and eventually generate a huge amount of revenue.
 
-The primary goal of this project is to develop a book recommendation model using Kaggle Datasets that could suggest readers what books to read next
+The primary goal of this project is to develop a book recommendation model using Kaggle Datasets that could suggest readers what books to read next.
 
 ## Dataset
 
 "Kaggle Dataset Link - https://www.kaggle.com/saurabhbagchi/books-dataset"
-- books.csv - has metadata for each book (book-id, book-title, book-author, year-of-publication and publisher). The raw dataset has 8 columns and 271379 values
-- ratings.csv - contains various user review ratings included user_id, book_id and ratings. It has 1149779 values
-- users.csv - contains user common informatio primary like user-id, location and age. It has 244148 values
+
+1. books.csv
+   This dataset contains bookss being identified by their ISBN Number. Book Information included Book-Title, Book-Author, Year-Of-Publication, and Publisher is given here. URLs    Linking which covers different book cover are also showned as well in small, medium, and large formats ('Image-URL-S', 'Image-URL-M', 'Image-URL-L').
+
+2. ratings.csv
+   This contains all of book rating reviews info included target associcated ISBN and reviewer User-ID too on a scale from 1 - 10 but not 0 = Not giving any review
+   
+3. users.csv
+  This would act as all users information included an User-ID and some demographic data - Location and Age 
 
 ## Solution Phrase
 
