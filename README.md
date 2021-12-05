@@ -14,7 +14,7 @@ The primary goal of this project is to develop a book recommendation model using
 "Kaggle Dataset Link - https://www.kaggle.com/saurabhbagchi/books-dataset"
 
 1. books.csv
-   This dataset contains bookss being identified by their ISBN Number. Book Information included Book-Title, Book-Author, Year-Of-Publication, and Publisher is given here. URLs    Linking which covers different book cover are also showned as well in small, medium, and large formats ('Image-URL-S', 'Image-URL-M', 'Image-URL-L').
+   This dataset contains books being identified by their ISBN Number. Book Information included Book-Title, Book-Author, Year-Of-Publication, and Publisher is given here. URLs    Linking which covers different book cover are also showned as well in small, medium, and large formats ('Image-URL-S', 'Image-URL-M', 'Image-URL-L').
 
 2. ratings.csv
    This contains all of book rating reviews info included target associcated ISBN and reviewer User-ID too on a scale from 1 - 10 but not 0 = Not giving any review
