@@ -1,9 +1,11 @@
 # Collaborative Filtering Based Book Recommendation System
 ## Group Team Members
 
-Nhan Dao
-Weifeng Ma
-Duong Cao
+Nhan Dao - Weifeng Ma - Duong Cao
+
+Presentation Link - 
+
+Slide Link - 
 
 ## Introduction
 
@@ -13,7 +15,7 @@ In general way, it is form of algorithm aimed at suggesting relevant items to us
 
 Recommendation systems are really criticial in a lot of industries like Amazon and Netflix, where they don't have to use physical stores for customers to walk in and choose what they want. It is the other way around which there would a list of suggested items based on purschased history. Furthermore, it has already lead the world to the state which people could shop online simply by staying at home and clicked mouse to search. In fact, Amazon and Netflix are primary examples which doesn't reply a lot in physical locations but still provided best service and eventually generate a huge amount of revenue.
 
-The primary goal of this project is to develop a book recommendation model using Kaggle Datasets that could suggest readers what books to read next.
+The primary goal of this project is to develop a book recommendation model using the Book-Crossing dataset, which includes book, user and ratings dataset.
 
 ## Dataset
 
@@ -28,7 +30,7 @@ The primary goal of this project is to develop a book recommendation model using
 3. users.csv
   This would act as all users information included an User-ID and some demographic data - Location and Age 
 
-## Solution Phrase
+## Project Overview
 
 The project would be organized into following steps
 
@@ -48,3 +50,10 @@ For data training, we would use Collaborative Filtering as training mode. If a s
 > **4. Data Evaluation:** 
 
 In Data Evaluation, we would do an intuitive check on the recommendation algorithm included checking attributes of predict method or getting estimated rating for one particular ISBN from one random User-ID. We continue to evaluate its accuracy on the predict model and even try to get top 10 recommended books for one random User-ID in test set
+
+## Type Of Recommender System 
+
+We will use the method of collaborative filtering to build the system. Collaborative Filtering is try to search for those viewers/readers who have similar preference like you and offer products based on what his/her lookalike has chosen. To make that approch, we will use a method to find the distance between data points, in this case, are the book title, ratings, and other features
+
+![](saved_files/collebrative.png)
+
