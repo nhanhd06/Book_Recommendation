@@ -51,9 +51,7 @@ For data training, we would use Collaborative Filtering as training mode. If a s
 
 In Data Evaluation, we would do an intuitive check on the recommendation algorithm included checking attributes of predict method or getting estimated rating for one particular ISBN from one random User-ID. We continue to evaluate its accuracy on the predict model and even try to get top 10 recommended books for one random User-ID in test set
 
-## Type Of Recommender System 
+## Algorithm Implementation
 
 We will use the method of collaborative filtering to build the system. Collaborative Filtering is try to search for those viewers/readers who have similar preference like you and offer products based on what his/her lookalike has chosen. To make that approch, we will use a method to find the distance between data points, in this case, are the book title, ratings, and other features
-
-![](saved_files/collebrative.png)
 
