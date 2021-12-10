@@ -3,7 +3,7 @@
 
 Nhan Dao - Weifeng Ma - Duong Cao
 
-Presentation Link - 
+Presentation Link - https://www.youtube.com/watch?v=zUswav06-eI
 
 Slide Link - https://docs.google.com/presentation/d/1BNFwHiI29aaAL8YaXZ2y-hLKmPVpVymQ-cIQwXYT-F0/edit?usp=sharing
 
