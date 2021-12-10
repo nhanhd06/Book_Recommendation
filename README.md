@@ -5,7 +5,7 @@ Nhan Dao - Weifeng Ma - Duong Cao
 
 Presentation Link - 
 
-Slide Link - 
+Slide Link - https://docs.google.com/presentation/d/1BNFwHiI29aaAL8YaXZ2y-hLKmPVpVymQ-cIQwXYT-F0/edit?usp=sharing
 
 ## Introduction
 
