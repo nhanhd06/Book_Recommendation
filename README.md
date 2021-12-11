@@ -35,6 +35,8 @@ In this project, the technique, collaborative filtering, is applied. In collabor
   This would act as all users information included an User-ID and some demographic data - Location and Age 
 
 ## Project Overview
+![image](https://user-images.githubusercontent.com/32551600/145658323-67bc70e9-e109-47a2-92da-19d753b93505.png)<br />
+We followed the steps from KDD model, knowlege discovery in databases. <br />
 
 The project would be organized into following steps
 
