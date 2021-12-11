@@ -72,8 +72,21 @@ In Data Evaluation, we would do an intuitive check on the recommendation algorit
 
 ## Algorithm Implementation
 
-We will use the method of collaborative filtering to build the system. Collaborative Filtering is try to search for those viewers/readers who have similar preference like you and offer products based on what his/her lookalike has chosen. To make that approch, we will use a method to find the distance between data points, in this case, are the book title, ratings, and other features
+We will use the method of collaborative filtering to build the system. Collaborative Filtering is try to search for those viewers/readers who have similar preference like you and offer products based on what his/her lookalike has chosen. To make that approch, we will use a method to find the distance between data points, in this case, are the book title, ratings, and other features <br />
 
+Before delving into the implementation of the model, it is convenient to have a subtle understanding of vectorization is. The vectorization algorithm used for recommendations works by decomposing the user-item interaction matrix into the product of two low-dimensional rectangular matrices. The figure below illustrates this idea at a high level:
+![image](https://user-images.githubusercontent.com/32551600/145659467-b3d7c8a9-66ae-4ef1-b69e-d830f0428f59.png) <br />
+by definition, Cosine similarity measures the similarity between two vectors by calculating the cosine of the angle between them.
+![image](https://user-images.githubusercontent.com/32551600/145659479-d4446e72-e2d1-4307-8d8b-a1ab658b1593.png) <br />
+<pre>
+from sklearn.neighbors import NearestNeighbors
+
+
+model_knn = NearestNeighbors(metric = 'cosine', algorithm = 'brute')
+model_knn.fit(us_canada_user_rating_matrix)
+</pre>
+We used the distance metric from KNN, to find the closest data points.
+<br />
 ## Reference  
 Image: 
 https://towardsdatascience.com/brief-on-recommender-systems-b86a1068a4dd <br />
