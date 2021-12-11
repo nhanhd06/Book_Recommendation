@@ -17,6 +17,10 @@ Recommendation systems are really criticial in a lot of industries like Amazon a
 
 The primary goal of this project is to develop a book recommendation model using the Book-Crossing dataset, which includes book, user and ratings dataset.
 
+## Collaborative Filtering
+![image](https://user-images.githubusercontent.com/32551600/145658137-2a48ba82-ce45-43dd-a028-669ef594f519.png)
+In this project, the technique, collaborative filtering, is applied. In collaborative filtering, algorithms are used to make automatic predictions about a user's preferences by compiling preferences from other users.
+
 ## Dataset
 
 "Kaggle Dataset Link - https://www.kaggle.com/saurabhbagchi/books-dataset"
