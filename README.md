@@ -47,7 +47,20 @@ After that, we quickly inspect all three datasets and identify how they are conn
 
 > **2. Data Exploratory:** 
 
-In this step, the goal was to explore the clean datasets and try to understand how various columns such as categories, author, year of publication would affect the rating of a book. Furthermore, it helps to check out other columns which could be considered as a performance metric for different books or authors included how many reviews a book received and how many books an author published and how their ratings compare).
+In this step, the goal was to explore the clean datasets and try to understand how various columns such as categories, author, year of publication would affect the rating of a book. Furthermore, it helps to check out other columns which could be considered as a performance metric for different books or authors included how many reviews a book received and how many books an author published and how their ratings compare).<br />
+![image](https://user-images.githubusercontent.com/32551600/145658847-e648e420-6444-4567-aa42-677ad3689b26.png)<br />
+Figure 1: Year and book released count <br />
+![image](https://user-images.githubusercontent.com/32551600/145658895-e652f0b8-61d7-4ba3-9b26-2080a03bface.png)<br />
+Figure 2: Book rating and count <br />
+![image](https://user-images.githubusercontent.com/32551600/145659003-3b53e203-9be1-49b7-ae24-bd1797e41764.png)
+Figure 3: Top 20 books(name) with highest book rating count <br />
+![image](https://user-images.githubusercontent.com/32551600/145659049-cce75735-c663-4b9a-9d12-2b673a267723.png)
+Figure 4: Average rating distribution for all books <br />
+![image](https://user-images.githubusercontent.com/32551600/145659163-b08ff064-56ab-49cd-ac8e-ca7b67aa8261.png) <br />
+Figure 5: Top 10 authors who been selected by users <br />
+![image](https://user-images.githubusercontent.com/32551600/145659130-d13af279-39fa-4a65-91a8-0bef6a8cf3e3.png) <br />
+Figure 6: Relation between Rating counts and year of publication <br />
+(For more detail of graphs and visualization, please open and follow the Colab.) <br />
 
 > **3. Data Training:** 
 
