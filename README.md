@@ -74,3 +74,8 @@ In Data Evaluation, we would do an intuitive check on the recommendation algorit
 
 We will use the method of collaborative filtering to build the system. Collaborative Filtering is try to search for those viewers/readers who have similar preference like you and offer products based on what his/her lookalike has chosen. To make that approch, we will use a method to find the distance between data points, in this case, are the book title, ratings, and other features
 
+## Reference  
+Image: 
+https://towardsdatascience.com/brief-on-recommender-systems-b86a1068a4dd <br />
+https://akoios.medium.com/building-a-movie-recommender-system-e2384328a134 <br />
+https://medium.com/@mark.rethana/building-a-song-recommendation-system-using-cosine-similarity-and-euclidian-distance-748fdfc832fd <br />
